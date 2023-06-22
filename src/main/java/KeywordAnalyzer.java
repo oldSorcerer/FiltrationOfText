@@ -9,8 +9,7 @@ abstract public class KeywordAnalyzer implements TextAnalyzer {
         return Label.OK;
     }
 
-    abstract protected String[] getKeywords();
+    protected abstract String[] getKeywords();
 
-    abstract protected Label getLabel();
-
+    protected abstract Label getLabel();
 }
