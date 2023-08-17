@@ -1,4 +1,4 @@
-abstract public class KeywordAnalyzer implements TextAnalyzer {
+public abstract class KeywordAnalyzer implements TextAnalyzer {
 
     public Label processText(String text) {
         for (String keyword : getKeywords()) {
